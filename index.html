@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #141414;
+            color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            background-color: #1e1e1e;
+            padding: 40px;
+            max-width: 700px;
+            width: 100%;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            text-align: left;
+            transform: scale(0.9);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .container:hover {
+            transform: scale(1);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #61dafb;
+            margin-bottom: 20px;
+            text-align: center;
+            opacity: 0;
+            animation: fadeInUp 1s forwards;
+        }
+
+        .info, .important-info, .yt, .contact, .footer {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s forwards;
+        }
+
+        .info { animation-delay: 0.2s; }
+        .important-info { animation-delay: 0.4s; }
+        .yt { animation-delay: 0.6s; }
+        .contact { animation-delay: 0.8s; }
+        .footer { animation-delay: 1s; }
+
+        .info p {
+            font-size: 16px;
+            margin: 8px 0;
+            color: #d1d1d1;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #f1f1f1;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #61dafb;
+            padding-bottom: 5px;
+        }
+
+        .important-info {
+            background-color: #2e2e2e;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 15px;
+            color: #e0e0e0;
+            border-left: 4px solid #e67e22;
+            transition: transform 0.3s ease;
+        }
+
+        .important-info:hover {
+            transform: scale(1.03);
+        }
+
+        details summary {
+            cursor: pointer;
+            font-weight: 600;
+            color: #61dafb;
+        }
+
+        .yt a, .contact a {
+            color: #61dafb;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .yt a:hover, .contact a:hover {
+            color: #e67e22;
+        }
+
+        .contact p, .footer p {
+            font-size: 16px;
+            color: #d1d1d1;
+            margin: 8px 0;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            text-align: center;
+            color: #868e96;
+        }
+
+        .footer a {
+            color: #868e96;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #61dafb;
+        }
+
+        /* Keyframes for Animations */
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .info p, .contact p {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tarz Ai</h1>
+
+        <div class="info">
+            <p><strong>Version:</strong> V3.0</p>
+            <p><strong>Code Version:</strong> V3.0</p>
+            <p><strong>Developer:</strong> Tarz Ai</p>
+        </div>
+
+        <h2>Note | Informasi | Module</h2>
+        <div class="important-info">
+            <details>
+              <h2>ℹ️ Mungkin ada bug V3.0</h2>
+              jika ada bug chat aja/join grup nanti kami akan cari
+              masalahnya.
+              <p><br></p>
+                <summary>Command Modulnya</summary>
+                <h3>Command Brevent</h3>
+                <p><br></p>
+                <p><strong>Install:</strong><br>sh /sdcard/Tarz/Settings/install.sh</p><br>
+                <p><strong>Uninstall:</strong><br>sh /sdcard/Tarz/Settings/uninstall.sh</p>
+            </details>
+        </div>
+        <p><br></p>
+        <div>
+    <style>
+        .tombol-3d {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+            box-shadow: 0 4px #999, 0 -2px 10px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .tombol-3d:active {
+            box-shadow: 0 4px #666, 0 -2px 5px rgba(0,0,0,0.2);
+            transform: translateY(4px);
+        }
+
+        .tombol-3d:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script>
+        function bukaHalaman() {
+            window.location.href =
+            'https://github.com/TarnaWijaya/Modul-Tarz/releases/download/Download/Tarz.V3.zip';
+            // Ganti dengan URL yang dituju
+        }
+    </script>
+    <button class="tombol-3d" onclick="bukaHalaman()">Download</button>
+        </div>
+        
+     <div class"important-info">
+        <div class="contact">
+            <h2>Contact Information</h2>
+            <p><strong>Grup:</strong> <a href="https://chat.whatsapp.com/Bg00CuoVLAM9PxM2F7iu7w" target="_blank">Join Group WhatsApp</a></p>
+            <p><strong>Web:</strong> <a
+            href="https://tarnawijaya.github.io/Links-Short/index.html"
+            target="_blank">Bio</a></p>
+        </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Tarz Ai | Developed by <a href="" target="_blank">Tarz Ai</a></p>
+</div>
+   </body>
+  </html>
