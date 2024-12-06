@@ -199,8 +199,26 @@
                 <h3>Command Brevent</h3>
                 Install:
                     <p id="text">sh /sdcard/Tarz/Settings/install.sh</p>
-                    <p><br></p>
-                    uninstall:
+    <button onclick="copyText()">Salin Teks Script</button>
+
+    <script>
+        function copyText() {
+            // Mendapatkan elemen teks
+            const textElement = document.getElementById('text');
+            // Membuat textarea sementara
+            const tempInput = document.createElement('textarea');
+            tempInput.value = textElement.textContent;
+            document.body.appendChild(tempInput);
+            // Menyalin teks ke clipboard
+            tempInput.select();
+            document.execCommand('copy');
+            // Menghapus textarea sementara
+            document.body.removeChild(tempInput);
+            alert('Teks berhasil disalin!');
+        }
+    </script>
+    <p><br></p>
+    uninstall:
 <p id="text">sh /sdcard/Tarz/Settings/uninstall.sh</p>
     <button onclick="copyText()">Salin Teks Script</button>
 
