@@ -196,9 +196,30 @@
               masalahnya.
               <p><br></p>
                 <summary>Command Modulnya</summary>
+                    <p id="text">sh /sdcard/Tarz/Settings/install.sh</p>
+                    <p><br></p>
+<p id="text">sh/sdcard/Tarz/Settings/install.sh</p>
+    <button onclick="copyText()">Salin Teks Script</button>
+
+    <script>
+        function copyText() {
+            // Mendapatkan elemen teks
+            const textElement = document.getElementById('text');
+            // Membuat textarea sementara
+            const tempInput = document.createElement('textarea');
+            tempInput.value = textElement.textContent;
+            document.body.appendChild(tempInput);
+            // Menyalin teks ke clipboard
+            tempInput.select();
+            document.execCommand('copy');
+            // Menghapus textarea sementara
+            document.body.removeChild(tempInput);
+            alert('Teks berhasil disalin!');
+        }
+    </script>
                 <h3>Command Brevent</h3>
                 <p><br></p>
-                <p><strong>Install:</strong><br>sh /sdcard/Tarz/Settings/install.sh</p><br>
+                <p><strong>Install:</strong><br></p><br>
                 <p><strong>Uninstall:</strong><br>sh /sdcard/Tarz/Settings/uninstall.sh</p>
             </details>
             <p><br></p>
