@@ -205,11 +205,25 @@
             <details>
             <summary>Riset Module No Delate Data</summary>
             <p><strong>Riset Models:</strong><br>
-            
-            ```
-            pm uninstall -k --user 0 android
-            ```
-            
+    <p id="text">Ini adalah teks yang dapat disalin!</p>
+    <button onclick="copyText()">Salin Teks</button>
+
+    <script>
+        function copyText() {
+            // Mendapatkan elemen teks
+            const textElement = document.getElementById('text');
+            // Membuat textarea sementara
+            const tempInput = document.createElement('textarea');
+            tempInput.value = textElement.textContent;
+            document.body.appendChild(tempInput);
+            // Menyalin teks ke clipboard
+            tempInput.select();
+            document.execCommand('copy');
+            // Menghapus textarea sementara
+            document.body.removeChild(tempInput);
+            alert('Teks berhasil disalin!');
+        }
+    </script>
             </p>
             </details>
         </div>
@@ -263,5 +277,5 @@
         <div class="footer">
             <p>&copy; 2024 Tarz Ai | Developed by <a href="" target="_blank">Tarz Ai</a></p>
 </div>
-   </body>
+   </b>
   </html>
