@@ -238,6 +238,27 @@
             alert('Teks berhasil disalin!');
         }
     </script>
+    <p><br></p>
+    Cek Info Hp
+<p id="text">sh /sdcard/Tarz Settings Android/info.sh</p>
+    <button onclick="copyText()">Salin Teks Script</button>
+
+    <script>
+        function copyText() {
+            // Mendapatkan elemen teks
+            const textElement = document.getElementById('text');
+            // Membuat textarea sementara
+            const tempInput = document.createElement('textarea');
+            tempInput.value = textElement.textContent;
+            document.body.appendChild(tempInput);
+            // Menyalin teks ke clipboard
+            tempInput.select();
+            document.execCommand('copy');
+            // Menghapus textarea sementara
+            document.body.removeChild(tempInput);
+            alert('Teks berhasil disalin!');
+        }
+    </script>
             </details>
             <p><br></p>
             <details>
