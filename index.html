@@ -198,53 +198,11 @@
               <p><br></p>
                 <summary>Command Modulnya</summary>
                 <h3>Command Brevent</h3>
-                Install:
-      ```
-      ii8i
-      ````
-               sh /sdcard/Tarz/Settings/install.sh
+                Install:  sh /sdcard/Tarz/Settings/install.sh
     <p><br></sh>
-    uninstall:
-<p id="text">sh /sdcard/Tarz/Settings/uninstall.sh</p>
-    <button onclick="uninstall()">Salin Teks Script</button>
-
-    <script>
-        function uninstall() {
-            // Mendapatkan elemen teks
-            const textElement = document.getElementById('text');
-            // Membuat textarea sementara
-            const tempInput = document.createElement('textarea');
-            tempInput.value = textElement.textContent;
-            document.body.appendChild(tempInput);
-            // Menyalin teks ke clipboard
-            tempInput.select();
-            document.execCommand('copy');
-            // Menghapus textarea sementara
-            document.body.removeChild(tempInput);
-            alert('Teks berhasil disalin!');
-        }
-    </script>
-    <p><br></p>
-    Cek Info Hp
-<p id="text">sh /sdcard/Tarz Settings Android/info.sh</p>
-    <button onclick="info()">Salin Teks Script</button>
-
-    <script>
-        function info() {
-            // Mendapatkan elemen teks
-            const textElement = document.getElementById('text');
-            // Membuat textarea sementara
-            const tempInput = document.createElement('textarea');
-            tempInput.value = textElement.textContent;
-            document.body.appendChild(tempInput);
-            // Menyalin teks ke clipboard
-            tempInput.select();
-            document.execCommand('copy');
-            // Menghapus textarea sementara
-            document.body.removeChild(tempInput);
-            alert('Teks berhasil disalin!');
-        }
-    </script>
+    uninstall:  sh /sdcard/Tarz/Settings/uninstall.sh
+    <p><br></sh>
+    Cek Info Hp:  sh /sdcard/Tarz Settings Android/info.sh
             </details>
             <p><br></p>
             <details>
