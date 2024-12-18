@@ -178,37 +178,44 @@
                 padding: 20px;
             }
         }
-.floating-container {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  text-align: center;
-}
+     .floating-button-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            text-align: center;
+            z-index: 1000;
+        }
 
-.floating-button {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  background-color: #007bff;
-  border-radius: 50%;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
+        .floating-button {
+            background-color: transparent;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s ease;
+        }
 
-.floating-button img {
-  width: 50%;
-  height: 50%;
-  margin: 25%;
-}
+        .floating-button:hover {
+            transform: scale(1.1);
+        }
 
-.floating-button:hover {
-  background-color: #0056b3;
-}
+        .floating-button img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
 
-.floating-text {
-  margin-top: 8px;
-  font-size: 14px;
-  color: #555;
-}
+        .button-text {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #333;
+        }
     </style>
 </head>
 <body>
