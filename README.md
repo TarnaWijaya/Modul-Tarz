@@ -2,6 +2,12 @@
 
 ⚠️: It's possible that this module doesn't work on your device.
 
+<p align="center">
+  <a href="link_unduhan" target="_blank">
+    <img src="https://img.shields.io/badge/Download-Here-blue?style=for-the-badge" alt="Download">
+  </a>
+</p>
+
 ## Credits & Dev:
 **Developer**: @axs_tarna
 
