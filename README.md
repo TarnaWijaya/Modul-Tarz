@@ -3,8 +3,21 @@
 ⚠️: It's possible that this module doesn't work on your device.
 
 <p align="center">
-  <a href="https://github.com/TarnaWijaya/Modul-Tarz/releases/tag/Download-Tarz-AI" target="_blank">
+  <a href="https://github.com/TarnaWijaya/Modul-Tarz/releases/tag/Download-Tarz-AI"
+  target="_blank">
     <img src="https://img.shields.io/badge/Download-Here-blue?style=for-the-badge" alt="Download">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/TarnaWijaya/Modul-Tarz/issues/2" target="_blank">
+    <img
+    src="https://img.shields.io/badge/Views-Reviews-orange?style=for-the-badge"
+    alt="User: Reviews">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/TarnaWijaya/Modul-Tarz/issues/3" target="_blank">
+    <img
+    src="https://img.shields.io/badge/Version-Beta-yellow?style=for-the-badge"
+    alt="beta trial">
   </a>
 </p>
 
