@@ -5,10 +5,10 @@
 ## Credits & Dev:
 **Developer**: @axs_tarna
 
-## Install To Module:
+Install To Module:
 Brevent & Ladb Only
 
-## Type Module:
+Type Module:
 - [x] Non Root!
 - [x] For all Androids can
 
@@ -42,7 +42,7 @@ Brevent & Ladb Only
 - `add_game.txt` > to improve performance but will drain battery
 - `add_sosial.txt` > to stabilize performance when playing social media and save battery
 
-## Optimize Game/App All
+Optimize Game/App All
 
 ### Note:
 - Please free 0.9GB of space.
