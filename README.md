@@ -60,3 +60,15 @@ sh /sdcard/Tarz/install.sh
 ```
 sh /sdcard/Tarz/hapus.sh
 ```
+
+# Feedback And Bug:
+
+TikTok: @axs_tarna
+
+WhatsApp: 085135530429
+
+Telegram: TarnaWijaya
+
+Bio Admin
+
+Tarz AI
