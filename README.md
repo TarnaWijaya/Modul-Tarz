@@ -67,3 +67,7 @@ WhatsApp: 085135530429
 Telegram: TarnaWijaya
 [Bio Admin](https://vercel.app/tarna-wijaya.com)
 [Tarz AI](https://vercel.app/tarzai.com)
+
+-------------------------------------------------------------------------
+  Enjoy Using Tarz AI
+-------------------------------------------------------------------------
