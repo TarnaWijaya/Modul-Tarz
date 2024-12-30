@@ -3,7 +3,7 @@
 ⚠️: It's possible that this module doesn't work on your device.
 
 <p align="center">
-  <a href="https://github.com/TarnaWijaya/Modul-Tarz/releases/tag/Download-Tarz-AI" 
+  <a href="https://github.com/TarnaWijaya/Modul-Tarz/issues/4" 
   target="_blank">
     <img src="https://img.shields.io/badge/Upload-File-blue?style=for-the-badge" alt="Upload">
 </a>
