@@ -2,7 +2,7 @@
 
 ⚠️: It's possible that this module doesn't work on your device.
 
-<p align="center"><a href="https://chat.whatsapp.com/Gomu4BhzluT3gaXRHmNs4n" 
+<p align="center"><a href="https://groupsor.link/group/join/Gomu4BhzluT3gaXRHmNs4n" 
    target="_blank">
     <img src="https://img.shields.io/badge/Join-WhatsApp_Group-green?style=for-the-badge" alt="Join Group">
 </a>
