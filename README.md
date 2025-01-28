@@ -34,15 +34,6 @@ Type Module:
 - [x] Non Root!
 - [x] For all Androids can
 
-## How To Install:
-```
-sh /sdcard/Tarz/main.sh 1
-```
-
-## How To Uninstall:
-```
-sh /sdcard/Tarz/main.sh 0
-```
 # Feedback And Bug:
 TikTok: @axs_tarna
 
