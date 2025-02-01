@@ -36,7 +36,7 @@ Type Module:
 
 # Feedback And Bug:
 <a href="https://forms.gle/PpgjFu1czC9groNF6" target="_blank">
-  <img src="https://img.shields.io/badge/Lapor-Form-blue?style=for-the-badge" alt="Lapor">
+  <img src="https://img.shields.io/badge/Lapor-Bug-blue?style=for-the-badge" alt="Lapor">
 </a>
 
 TikTok: @axs_tarna
