@@ -9,7 +9,7 @@ ____  ______________                        _____  .___
     Usage:
           " sh /sdcard/Tarz/main.sh "
         pilih value contoh:
-          " sh /sdcard/Tarz/main <0/1> "
+          " sh /sdcard/Tarz/main <0/1/help> "
           1: memasang
           0: mengembalikan
        help: untuk meminta bantuan
