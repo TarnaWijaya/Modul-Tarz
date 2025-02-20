@@ -7,6 +7,8 @@ ____  ______________                        _____  .___
     [ ☞⁠￣⁠ᴥ⁠￣⁠☞ Selamat Datan dipusat bantuan Module XTarzAI]
     
     Usage:
+    Harus Menggunakan Brevent/Ladb/Ashell
+    
           " sh /sdcard/Tarz/main.sh "
         pilih value contoh:
           " sh /sdcard/Tarz/main <0/1/help> "
