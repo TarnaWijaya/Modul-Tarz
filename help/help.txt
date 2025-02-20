@@ -6,6 +6,13 @@ ____  ______________                        _____  .___
       \_/               \/            \/         \/     
     [ ☞⁠￣⁠ᴥ⁠￣⁠☞ Selamat Datan dipusat bantuan Module XTarzAI]
     
+    Usage:
+          " sh /sdcard/Tarz/main.sh "
+      pilih value contoh:
+          " sh /sdcard/Tarz/main <0/1> "
+          1: memasang
+          0: mengembalikan
+    
   anda bisa bergabung digrup
     Telegram Grup: https://t.me/TarnaWijaya_grup
     WhatsApp Grup: https://chat.whatsapp.com/Gomu4BhzluT3gaXRHmNs4n
