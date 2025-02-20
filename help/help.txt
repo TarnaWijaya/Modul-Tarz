@@ -13,7 +13,8 @@ ____  ______________                        _____  .___
           1: memasang
           0: mengembalikan
     Info:
-        untuk mengoptimalkan saja, tergantung pada hp saja apakah mendukung atau tidak
+        untuk mengoptimalkan saja,
+        tergantung pada hp saja apakah mendukung atau tidak
     
   anda bisa bergabung digrup
     Telegram Grup: https://t.me/TarnaWijaya_grup
