@@ -1,4 +1,3 @@
-echo "
 ____  ______________                        _____  .___ 
 \   \/  /\__    ___/____ _______________   /  _  \ |   |
  \     /   |    |  \__  \\_  __ \___   /  /  /_\  \|   |
@@ -15,4 +14,4 @@ ____  ______________                        _____  .___
     Telegram: @TarnaWijaya
     WhatsApp: +62 851-3553-0429
     
-    Terimakasih sudah memakai Module ini❤️"
+    Terimakasih sudah memakai Module ini❤️
