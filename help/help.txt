@@ -12,6 +12,7 @@ ____  ______________                        _____  .___
           " sh /sdcard/Tarz/main <0/1> "
           1: memasang
           0: mengembalikan
+       help: untuk meminta bantuan
     Info:
         untuk mengoptimalkan saja,
         tergantung pada hp saja apakah mendukung atau tidak
